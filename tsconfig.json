@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./application/dist",
+    "rootDir": "",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "/*"
+      ]
+    }
+  },
+  "include": [
+    "application/**/*.ts",
+    "domain/**/*.ts",
+    "infrastructure/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "deployment"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "number",
+        "name",
+        "company",
+        "companyName"
+    ],
+    "properties": {
+        "number": {
+            "type": "string",
+            "default": "",
+            "title": "The agreement number",
+            "examples": ["10000208"]
+        },
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "the name of the agreement",
+            "examples": ["Servicios de Salud de Puebla"]
+        },
+        "company": {
+            "type": "string",
+            "default": "",
+            "title": "The company of the agreement",
+            "examples": ["LA TENDA"]
+        },
+        "companyName": {
+            "type": "string",
+            "default": "",
+            "title": "The company name of the agreement",
+            "examples": ["LA TENDA MÉXICO, S.A. de C.V."]
+        }
+    }
+}
